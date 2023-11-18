@@ -4,10 +4,10 @@ public class Main {
         int a = 5;
         int b = 6;
         int c = 7;
-        int tmp;
-        tmp=b;
+        
+        int tmp=b;
         b=a;
-        tmc=c;
+        int tmc=c;
         c=tmp;
         a=tmc;
         System.out.println(a);
